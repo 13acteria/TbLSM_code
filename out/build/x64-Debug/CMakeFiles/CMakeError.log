@@ -1,0 +1,96 @@
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Users/USER/Desktop/TbLSM/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_642b5 && [1/2] Building C object CMakeFiles\cmTC_642b5.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_642b5.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 -std:c11 /showIncludes /FoCMakeFiles\cmTC_642b5.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_642b5.dir\ /FS -c CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: 無法開啟包含檔案: 'unistd.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function crc32c_value exists in the crc32c failed with the following output:
+Change Dir: C:/Users/USER/Desktop/TbLSM/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4e845 && [1/2] Building C object CMakeFiles\cmTC_4e845.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_4e845.exe
+FAILED: cmTC_4e845.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_4e845.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_4e845.dir\CheckFunctionExists.c.obj  /out:cmTC_4e845.exe /implib:cmTC_4e845.lib /pdb:cmTC_4e845.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  crc32c.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_4e845.dir\CheckFunctionExists.c.obj /out:cmTC_4e845.exe /implib:cmTC_4e845.lib /pdb:cmTC_4e845.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console crc32c.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_4e845.dir/intermediate.manifest CMakeFiles\cmTC_4e845.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: 無法開啟檔案 'crc32c.lib'
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function snappy_compress exists in the snappy failed with the following output:
+Change Dir: C:/Users/USER/Desktop/TbLSM/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_6c00a && [1/2] Building C object CMakeFiles\cmTC_6c00a.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_6c00a.exe
+FAILED: cmTC_6c00a.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_6c00a.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_6c00a.dir\CheckFunctionExists.c.obj  /out:cmTC_6c00a.exe /implib:cmTC_6c00a.lib /pdb:cmTC_6c00a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  snappy.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_6c00a.dir\CheckFunctionExists.c.obj /out:cmTC_6c00a.exe /implib:cmTC_6c00a.lib /pdb:cmTC_6c00a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console snappy.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_6c00a.dir/intermediate.manifest CMakeFiles\cmTC_6c00a.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: 無法開啟檔案 'snappy.lib'
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function malloc exists in the tcmalloc failed with the following output:
+Change Dir: C:/Users/USER/Desktop/TbLSM/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f2b68 && [1/2] Building C object CMakeFiles\cmTC_f2b68.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_f2b68.exe
+FAILED: cmTC_f2b68.exe 
+cmd.exe /C "cd . && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_f2b68.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_f2b68.dir\CheckFunctionExists.c.obj  /out:cmTC_f2b68.exe /implib:cmTC_f2b68.lib /pdb:cmTC_f2b68.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  tcmalloc.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_f2b68.dir\CheckFunctionExists.c.obj /out:cmTC_f2b68.exe /implib:cmTC_f2b68.lib /pdb:cmTC_f2b68.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console tcmalloc.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_f2b68.dir/intermediate.manifest CMakeFiles\cmTC_f2b68.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: 無法開啟檔案 'tcmalloc.lib'
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the fdatasync exist failed with the following output:
+Change Dir: C:/Users/USER/Desktop/TbLSM/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d0031 && [1/2] Building C object CMakeFiles\cmTC_d0031.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_d0031.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 -std:c11 /showIncludes /FoCMakeFiles\cmTC_d0031.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_d0031.dir\ /FS -c CheckSymbolExists.c
+CheckSymbolExists.c(2): fatal error C1083: 無法開啟包含檔案: 'unistd.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/USER/Desktop/TbLSM/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fdatasync
+  return ((int*)(&fdatasync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_CLANG_THREAD_SAFETY failed with the following output:
+Change Dir: C:/Users/USER/Desktop/TbLSM/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d44d4 && [1/2] Building CXX object CMakeFiles\cmTC_d44d4.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_d44d4.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo /TP -DHAVE_CLANG_THREAD_SAFETY  /DWIN32 /D_WINDOWS /W3 /GR /EHsc -Werror /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_d44d4.dir\src.cxx.obj /FdCMakeFiles\cmTC_d44d4.dir\ /FS -c src.cxx
+cl : 命令列 error D8021 : 無效的數字引數 '/Werror'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+struct __attribute__((lockable)) Lock {
+  void Acquire() __attribute__((exclusive_lock_function()));
+  void Release() __attribute__((unlock_function()));
+};
+struct ThreadSafeType {
+  Lock lock_;
+  int data_ __attribute__((guarded_by(lock_)));
+};
+int main() { return 0; }
+
